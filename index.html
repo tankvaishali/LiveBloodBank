@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Blood Bank</title>
+  <link rel="shortcut icon" href="images/logo top-photoaidcom-cropped.jpg" type="image/xicon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- <script
+      src="https://kit.fontawesome.com/9bbc1cd7b1.js"
+      crossorigin="anonymous"
+    ></script> -->
+  <!-- animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body onload="loadFunc()">
+
+  <!-- loader -->
+  <section id="load">
+    <div class="one">
+    </div>
+  </section>
+  <!-- loader end -->
+
+  <!-- back to top-start -->
+
+  <div class="bckbtn">
+    <a href="#"><i class="fa-solid fa-turn-up"></i></a>
+  </div>
+
+  <!-- back to top-end -->
+
+  <!-- navbar start -->
+
+  <nav class="navbar navbar-expand-lg shadow-lg z-2"
+    style="position: sticky; top: 0; left: 0; right: 0; background-color: white;">
+    <div class="container">
+      <img src="images/logo.png" class="img-fluid" width="90px" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-3 mt-lg-0 mb-3 mb-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+
+        </ul>
+
+        <a href="https://blooddonarinfo.vercel.app/" class="bl-btn">DONATE</a>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+  
+  <!-- slider start  -->
+
+  <div class="container-fluid p-0 crslSlide aos-init aos-animate mb-5" data-aos="zoom-in" data-aos-delay="50"
+    data-aos-duration="1500">
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade  " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2500">
+          <img src="images/slider/slide 4.jpg" class="d-block w-100 slideImg img-fluid  " alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2500">
+          <img src="images/slider/slide 33.jpg" class="d-block w-100 img-fluid  slideImg " alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2500">
+          <img src="images/slider/slide 2.jpg" class="d-block w-100 slideImg img-fluid " alt="...">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- slider end -->
+
+
+
+
+
+  <!-- about  -->
+
+  <div class="px-4  mt-5 mb-5 container">
+
+    <div class="row">
+
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+
+        <p class="title-ab">About Us</p>
+
+        <h2 style="font-size: 42px; ">Together, we can improve and increase global health. </h2>
+
+        <div class="mt-4 text-grey">
+          Live Blood Bank, a non-profit association by Social Army, is helping the needy individuals by giving them the
+          most valuable thing - LIFE.
+        </div>
+
+        <div class="row mt-4 m-0">
+
+          <div class="col-lg-4 col-sm-4 col-md-4 m-0 g-0 fs-ab">
+            <ul class="list-unstyled p-0">
+
+              <li class="icon-text">
+                <span class="icon1"><i class="fa-solid fa-check"></i></span>
+                <span class="text-list">Best Service</span>
+              </li>
+              <li class="icon-text">
+                <span class="icon1"><i class="fa-solid fa-check"></i></span>
+                <span class="text-list">Help People</span>
+              </li>
+              <li class="icon-text">
+                <span class="icon1"><i class="fa-solid fa-check"></i></span>
+                <span class="text-list">Hygine Tools</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-4 col-md-4 m-0  g-0">
+            <ul class="list-unstyled p-0">
+
+              <li class="icon-text">
+                <span class="icon1"><i class="fa-solid fa-check"></i></span>
+                <span class="text-list"> 24*7</span>
+              </li>
+              <li class="icon-text">
+                <span class="icon1"><i class="fa-solid fa-check"></i></span>
+                <span class="text-list">Health Check</span>
+              </li>
+              <li class="icon-text">
+                <span class="icon1"><i class="fa-solid fa-check"></i></span>
+                <span class="text-list">Blood Bank</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <a class="bl-btn border-0" href="./About.html">About Us</a>
+
+      </div>
+
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+
+        <img src="/images/SaveBlood.76f0a1e98d852abb7fe9.jpg" class="img-fluid mt-3 mt-lg-5" alt="">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- about end -->
+
+
+
+  <!-- join us section  -->
+
+  <section class="join mt-5 overflow-hidden p-5 h-auto" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+    <div class="container">
+      <div class=" text-center text-white">
+        <h6>join Us</h6>
+        <h2 class="heading hh text-white">Become a Blood Donator</h2>
+        <h5 class="p-0 p-lg-5 jj">Learn new things everyday and build everlasting relations while contributing to
+          society. Help people in case of emergency blood requirements. Join us to ensure people have a future, join us
+          to save lives!
+
+        </h5>
+        <a class="bl-btn  text-center text-white"
+          style="margin-top: 60px !important;background-color: var(--color--);font-weight: 700;" target="_blank"
+          href="https://blooddonarinfo.vercel.app/">BECOME A CONTRIBUTOR</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- join us section end  -->
+
+
+
+  <!-- Event section  -->
+  <section class="first container mt-5" style="margin-top: 90px !important;">
+    <div class="main w-100 mb-3">
+      <div class="lef" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+        <!-- <p class="text-danger">Event</p> -->
+        <h2 class=" heading d-flex justify-content-center align-items-center">Blood Donation Event</h2>
+      </div>
+
+    </div>
+
+    <div class="row mt-5">
+
+      <div class="second col-lg-4 col-md-12 col-sm-12 mt-3" data-aos="fade-up" data-aos-delay="50">
+        <div class="card firstCard">
+          <img src="images/ev img/e.jpg" style="height: 300px;" class="card-img-top img-fluid object-fit-cover"
+            alt="Not Found" />
+          <div class="cb d-flex">
+            <p class="w-50" style="background-color: rgb(227, 167, 167)">
+              <i class="fa-regular fa-calendar-check pe-2"></i>03 Dec 2023
+            </p>
+            <p class="w-50" style="background-color: var(--color--)">
+              <i class="fa-solid fa-clock pe-2"></i>09am - 12pm
+            </p>
+          </div>
+          <p class="text-center"
+            style="  background-color: rgb(235, 230, 230);  margin: 0;  padding-top: 3px;  height: 35px; ">
+            <i class="fa-solid fa-location-dot pe-2"></i> Surat,Gujarat
+          </p>
+        </div>
+
+        <div class="text mt-2" style="text-align: justify">
+          <h5 class=" border-bottom border-3 border-black py-2">BLOOD DONATION DRIVE</h5>
+          <p class="mt-4">
+
+            An awareness campaign for blood donation has been ongoing during festivals and Diwali vacations in Surat,
+            particularly in areas like Hirabagh, Yogichowk, and Punagam. Run by the Social Army Group, Project Live
+            Blood Bank aims to raise awareness about blood donation and encourage people to participate. Today, the
+            campaign successfully collected 127 bottles of blood, thanks to the support of Sardar Vallabhbhai Patel
+            Blood Bank and their team in Rander.
+
+          </p>
+        </div>
+      </div>
+      <div class="second col-lg-4 col-md-12 col-sm-12 mt-3" data-aos="fade-up" data-aos-delay="50">
+        <div class="card firstCard">
+          <img src="images/ev img/e6.jpg" class="img-fluid evimg " style="object-position: 0  !important; " alt="..." />
+          <div class="cb d-flex">
+            <p class="w-50" style="background-color: rgb(227, 167, 167)">
+              <i class="fa-regular fa-calendar-check pe-2"></i>12 Dec 2022
+            </p>
+            <p class="w-50" style="background-color: var(--color--)">
+              <i class="fa-solid fa-clock pe-2"></i>03pm - 05pm
+            </p>
+          </div>
+          <p class="text-center"
+            style="  background-color: rgb(235, 230, 230);  margin: 0;  padding-top: 3px;  height: 35px; ">
+            <i class="fa-solid fa-location-dot pe-2"></i> Surat,Gujarat
+          </p>
+        </div>
+
+        <div class="text mt-2" style="text-align: justify">
+          <h5 class=" border-bottom border-3 border-black py-2 text-uppercase">
+            Blood donation camp</h5>
+          <p class="mt-4">
+
+
+            The Social Army group organized a successful blood donation camp today in Kapodra, Shreeji Nagar. A large
+            number of enthusiastic youths participated in the camp to donate blood, expressing their selflessness and
+            willingness to help. Sardar Blood Bank, a staunch advocate for humanitarian causes, extended significant
+            cooperation. In the future, we will continue to facilitate such events to ensure that blood is readily
+            available to vulnerable patients in need at blood donation centers.
+
+          </p>
+        </div>
+      </div>
+      <div class="second col-lg-4 col-md-12 col-sm-12 mt-3" data-aos="fade-up" data-aos-delay="50">
+        <div class="card firstCard">
+          <img src="images/ev img/data collection.jpg" style="height: 300px;"
+            class="card-img-top img-fluid object-fit-cover" alt="..." />
+          <div class="cb d-flex">
+            <p class="w-50" style="background-color: rgb(227, 167, 167)">
+              <i class="fa-regular fa-calendar-check pe-2"></i>13 june 2022
+            </p>
+            <p class="w-50" style="background-color: var(--color--)">
+              <i class="fa-solid fa-clock pe-2"></i>02pm - 05pm
+            </p>
+          </div>
+          <p class="text-center"
+            style="  background-color: rgb(235, 230, 230);  margin: 0;  padding-top: 3px;  height: 35px; ">
+            <i class="fa-solid fa-location-dot pe-2"></i> Surat,Gujarat
+          </p>
+        </div>
+
+        <div class="text mt-2" style="text-align: justify">
+          <h5 class=" border-bottom border-3 border-black py-2 text-uppercase">Blood Data Collection</h5>
+          <p class="mt-4">
+
+
+            The Project Live Blood Bank campaign, organized by the Social Army group, for blood donation and donor
+            awareness, was successfully conducted today by the members of the group through play cards titled Blood Data
+            Collection. Supporters, becoming aware themselves, donated blood on the spot. Social leaders Vipulbhai
+            Sachapara, Ganpatbhai Dhameliya, and Dr. Purvesh Dhankhecha attended the event, praised the efforts, and
+            provided inspirational guidance.
+
+          </p>
+        </div>
+      </div>
+      <div class="second col-lg-4 col-md-12 col-sm-12 mt-3" data-aos="fade-up" data-aos-delay="50">
+        <div class="card firstCard">
+          <img src="images/ev img/e10.jpg" class="card-img-top w-100 img-fluid object-fit-cover ev-1" alt="..." />
+          <div class="cb d-flex">
+            <p class="w-50" style="background-color: rgb(227, 167, 167)">
+              <i class="fa-regular fa-calendar-check pe-2"></i>14 june 2020
+            </p>
+            <p class="w-50" style="background-color: var(--color--)">
+              <i class="fa-solid fa-clock pe-2"></i>10am - 12pm
+            </p>
+          </div>
+          <p class="text-center"
+            style="  background-color: rgb(235, 230, 230);  margin: 0;  padding-top: 3px;  height: 35px; ">
+            <i class="fa-solid fa-location-dot pe-2"></i> Surat,Gujarat
+          </p>
+        </div>
+
+        <div class="text mt-4" style="text-align: justify">
+          <h5 class=" border-bottom border-3 border-black py-2" style="font-size: calc(1.2rem  + .3vw)">14 June "World
+            Blood Donor Day"</h5>
+          <p class="mt-4">
+            The Savior Blood Bank, a social organization operated under the Social Army, was conducting a large number
+            of blood donation drives during the lockdown period. Typically, a good number of people would donate blood
+            during regular times, but during the lockdown period, the situation was not visible, and we had to face a
+            shortage of blood. In such circumstances, the needy patients required blood urgently, and in order to
+            address this, Savior Blood Bank collaborated with the Live Blood Bank to facilitate blood donation from the
+            donors' homes to help the needy patients.
+
+          </p>
+        </div>
+      </div>
+
+
+
+      <div class="second col-lg-4 col-md-12 col-sm-12 mt-3" data-aos="fade-up" data-aos-delay="50"
+        data-aos-duration="1500">
+        <div class="card firstCard">
+          <img src="images/ev img/e 2.jpg" style="height: 300px;" class="card-img-top img-fluid object-fit-cover"
+            alt="..." />
+          <div class="cb d-flex">
+            <p class="w-50" style="background-color: rgb(227, 167, 167)">
+              <i class="fa-regular fa-calendar-check pe-2"></i>20 sep 2020
+            </p>
+            <p class="w-50" style="background-color: var(--color--)">
+              <i class="fa-solid fa-clock pe-2"></i>09am - 11am
+            </p>
+          </div>
+          <p class="text-center"
+            style="  background-color: rgb(235, 230, 230);  margin: 0;  padding-top: 3px;  height: 35px; ">
+            <i class="fa-solid fa-location-dot pe-2"></i>Surat, Gujarat
+          </p>
+        </div>
+
+        <div class="text mt-4" style="text-align: justify">
+          <h4 class="border-bottom border-3 border-black py-2">"Bloodgroup Data Collection"</h4>
+          <p class="mt-4">
+            The Live Blood Bank, operating under the Social Army Group, works to ensure the transfer of blood from
+            person to person. In this selfless and continuous service, a Blood Group Data Collection program was
+            organized today to reach more and more people through the efforts of the Live Blood Bank, situated in
+            Vadodara. Local residents and supporters actively participated by registering a large amount of blood group
+            data and necessary information. In this endeavor, members of Yamuna Jewels and Swastham Laboratory provided
+            significant support.
+          </p>
+          <!-- <a href="">Learn More</a> -->
+        </div>
+      </div>
+
+
+
+      <div class="second col-lg-4 col-md-12 col-sm-12 mt-3" data-aos="fade-up" data-aos-delay="50"
+        data-aos-duration="1500">
+        <div class="card firstCard">
+          <img src="images/ev img/e 3.jpg" class="ee img-fluid object-fit-cover eventlast " alt="..." />
+          <div class="cb d-flex">
+            <p class="w-50" style="background-color: rgb(227, 167, 167)">
+              <i class="fa-regular fa-calendar-check pe-2"></i>14 Jun 2019
+            </p>
+            <p class="w-50" style="background-color: var(--color--)">
+              <i class="fa-solid fa-clock pe-2"></i>02pm - 05pm
+            </p>
+          </div>
+          <p class="text-center"
+            style="  background-color: rgb(235, 230, 230);  margin: 0;  padding-top: 3px;  height: 35px; ">
+            <i class="fa-solid fa-location-dot pe-2"></i>Surat, Gujarat
+        </div>
+
+        <div class="text mt-4" style="text-align: justify">
+          <h4 class="border-bottom border-3 border-black py-2">"World Blood Donor Day"</h4>
+          <p class="mt-4">
+            Salutations to all blood donors who, while saving lives, have also successfully connected others through the
+            bond of blood. It's remarkable! As part of the Social Army group, the Live Blood Bank, along with its
+            members and everyone associated with this group, has demonstrated immense humanity by joining the Live Blood
+            Bank and prioritizing humanity over any other relationship. By donating blood, they have helped others
+            selflessly. Today, Varaacha Bank honors this selfless service. Credit goes to every blood donor who has
+            helped those in need.
+          </p>
+          <!-- <a href="">Learn More</a> -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- event section end  -->
+
+  <!-- form section  -->
+
+  <section class="registation" style="margin-top: 50px;">
+    <div class="container">
+      <div class="row bg-white d-flex flex-row-reverse">
+        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+          <h6 class="text-danger">Registration</h6>
+          <h1 class="text-dark mb-3 fw-bold">
+            Your Donation Can Make Someone’s Life Better
+          </h1>
+          <p class="mb-4">
+            Even a single donation can save lives. Blood gives us energy by bringing oxygen and nutrients to the body's
+            cells. Donate blood and be the reason for someone's existence.
+          </p>
+          <h5>Our hours of operation</h5>
+          <div class="row mt-0 mb-2">
+            <hr />
+            <p class="col-lg-6">Monday-Sunday</p>
+            <p class="col-lg-6">
+              <i class="fa-solid fa-clock pe-2"></i>We're here for you 24*7
+            </p>
+            <hr />
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-lg-6">
+              <h3 class="pb-3">Surat, Gujarat</h3>
+              <p>
+                <i style="color: var(--color--)" class="fa-solid fa-location-dot pe-2"></i>Surat
+              </p>
+              <p>
+                <i style="color: var(--color--) " class="fa-solid fa-phone pe-2"></i>
+                (+91) 90676 65653
+              </p>
+              <p>
+                <i style="color : var(--color--)" class="fa-solid fa-envelope pe-2"></i>
+                livebloodbank007@gmail.com
+              </p>
+            </div>
+            <!-- <div class="col-lg-6" data-aos="zoom-in"
+              data-aos-delay="50" data-aos-duration="1500">
+                <h3 class="pb-3">Surat City</h3>
+                <p>
+                  <i style="color: var(--color--)"  class="fa-solid fa-location-dot pe-2"  ></i>surat, 
+                </p>
+                <p>
+                  <i  style="color:  var(--color--)"  class="fa-solid fa-phone pe-2"></i>(+91) 90676 76791
+                </p>
+                <p>
+                  <i  style="color:  var(--color--)"  class="fa-solid fa-envelope pe-2" ></i>livebloodbank007@gmail.com
+                </p>
+              </div> -->
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="50"
+          data-aos-duration="1500">
+          <form action="https://formsubmit.co/livebloodbank007@gmail.com" method="POST" reset class="row form"
+            style="width: 95%;">
+            <div class="col-md-6 mb-2">
+              <label for="name" class="form-label"></label>
+              <input type="text" class="form-control" name="Name" id="name" placeholder="Your Name">
+            </div>
+            <div class="col-md-6 mb-2">
+              <label for="number" class="form-label"></label>
+              <input type="text" class="form-control" name="Number" id="number" placeholder="Your Phone Number">
+            </div>
+
+            <div class="col-md-12 mb-2">
+              <label for="email" class="form-label"></label>
+              <input type="email" class="form-control" name="Email" id="email" placeholder="Enter Your Email">
+            </div>
+
+            <div class="col-md-12 mb-2">
+              <label class="form-label" for="donType"></label>
+              <select class="form-control" name="DonType" id="donType" aria-placeholder="">
+                <option value="">Donation Type</option>
+                <option value="Blood Donation">Blood Donation</option>
+                <!-- <option value="Prelove Donation">Prelove Donation</option> -->
+              </select>
+            </div>
+
+            <div class="col-md-12 mb-2">
+              <label for="message" class="form-label"></label>
+              <textarea class="form-control" name="message" id="message" rows="6" placeholder="Your message"></textarea>
+            </div>
+
+            <div class="col-md-12 mb-4">
+              <button class="btn btn-primary" type="submit" style="background-color:  var(--color--); border: 0px;">Be a
+                donor</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- form section end  -->
+
+
+
+
+
+
+
+
+
+  <!-- our news section  -->
+
+  <section class="news h-100">
+    <div class="container">
+      <div class="text-center" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+        <h6>Our News</h6>
+        <h1 style="color: var(--color--);">News & Article</h1>
+        <h5>Donating blood can seem intimidating, but it’s an easy process that can help
+          save someone’s life. </h5>
+      </div>
+
+
+      <div class="row">
+        <div class="second col-lg-4 col-md-12 mt-3 col-sm-12" data-aos="fade-up" data-aos-delay="50"
+          data-aos-duration="1500">
+          <div class="card firstCard">
+            <img src="images/bdd4.jpg" class="card-img-top" alt="..." />
+
+          </div>
+
+          <div class="text mt-4">
+            <h4>How to Do Blood Donation Safety In The Pandemic Condition</h4>
+            <p class="mt-3"><i class="fa-solid fa-clock pe-2"></i>August 18,2021</p>
+            <p style="text-align: justify;">
+              Since the start of the pandemic in early March 2020, the Red Cross announced that it needed blood
+              donations. But as state and federal leaders warned against leaving...
+            </p>
+            <!-- <a href="" style="color:  var(--color--);">Read More <i class="fa-solid fa-arrow-right"></i></a> -->
+          </div>
+        </div>
+
+        <div class="second col-lg-4 col-md-12 mt-3 col-sm-12" data-aos="fade-up" data-aos-delay="50"
+          data-aos-duration="1500">
+          <div class="card firstCard">
+            <img src="images/bdd5.jpg" class="card-img-top" alt="..." />
+
+          </div>
+
+          <div class="text mt-4">
+            <h4>Blood Supply Decreasing Because This Month High Demand</h4>
+            <p class="mt-3"><i class="fa-solid fa-clock pe-2"></i>August 12, 2021</p>
+            <p style="text-align: justify;">
+              One way this situation is different from prior shortages is some suppliers have been forced to put limits
+              on how much blood each health care system or hospital can...
+            </p>
+            <!-- <a href="" style="color:  var(--color--);">Read More <i class="fa-solid fa-arrow-right"></i></a> -->
+          </div>
+        </div>
+
+
+        <div class="second col-lg-4 col-md-12 mt-3 col-sm-12" data-aos="fade-up" data-aos-delay="50"
+          data-aos-duration="1500">
+          <div class="card firstCard">
+            <img src="images/bdd6.jpg" class="card-img-top" alt="..." />
+
+          </div>
+
+          <div class="text mt-4">
+            <h4>Don’t Do This Activity After You Donating Your Blood</h4>
+            <p style="margin-top: 45px;"><i class="fa-solid fa-clock pe-2"></i>August 12, 2021</p>
+            <p style="text-align: justify;">
+              Avoid vigorous exercise or heavy lifting for about 24 hours after donation. Your body needs time to
+              replenish the fluids and components that you gave that...
+            </p>
+            <!-- <a href="" style="color:  var(--color--);">Read More <i class="fa-solid fa-arrow-right"></i></a> -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    </div>
+
+
+  </section>
+
+  <!-- our news section end  -->
+
+
+
+  <!-- subscribe section  -->
+
+  <!-- <section class="subscribe mt-5"  data-aos="fade-up"
+    data-aos-delay="50" data-aos-duration="1500">
+      <div class="container " style="background-color: #c6414c; border-radius: 8px ;">
+        <div class="row text-white">
+           <div class="col-lg-6 pt-5 ps-5 pe-5 pb-5">
+              <h1>
+                Join To Get Our Newsletter
+              </h1>
+              <p>
+                You can give blood at any of our blood donation venues all over the world. We have total sixty thousands donor centers and visit thousands of other venues on various occasions.
+
+              </p>
+           </div>
+
+
+           <div class="col-lg-6  ps-5 pe-5 pb-5">
+             <div class="row subBtn">
+               <div class="col-lg-6" >
+                  <label class="form-label" for="email"></label>
+                  <input class="form-control" type="email" name="Email" id="email" placeholder="Enter your Email">
+               </div>
+
+               <div class="col-lg-6 mt-3">
+                <button class="btn btn-primary" style="background-color: black;">Subscribe</button>
+               </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <!-- subscribe section end  -->
+
+
+  <!-- footer-start -->
+  <div class="container-fluiid py-5 footer">
+    <div class="container">
+      <div class="row row-cols-lg-3 row-cols-1">
+
+        <div class="col">
+          <div class="text-center">
+            <img src="images/logo.png" width="150px" alt="">
+            <div class="mt-3 p-0" style="color: var(--black--);text-align: justify;">Live Blood Bank, a non-profit association by Social
+              Army, is helping the needy individuals by giving them the most valuable thing - LIFE.</div>
+            <span class="p-0" style="color: var(--color--);"><b><span class="fs-5">~</span> A project by Social Army
+                <span class="fs-5">~</span></b></span>
+
+          </div>
+        </div>
+        <div class="col quicklink">
+          <div class="ftlnk">
+            <h4 class="txt text-start ps-0 ft-underline text-dark">Quick Links</h4>
+            <ul class="list-unstyled">
+              <li><i class="fa-solid fa-chevron-right"></i><a href="index.html">Home</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="About.html">About</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="blog.html">Blog</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="gallery.html">Gallery</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="ftlnk">
+            <h4 class="txt text-start ps-0 ft-underline text-dark">Contact</h4>
+            <ul class="list-unstyled">
+              <li><span class="fw-semibold">Address</span>:
+                Surat, Gujarat
+              </li>
+              <li><span class="fw-semibold">Phone</span>: (+91) 90676 65653</li>
+              <li><span class="fw-semibold">Email</span>:
+                livebloodbank007@gmail.com</li>
+
+              <div class="text-center">
+                <div class="d-flex justify-content-start align-items-center mt-3 sclmd">
+                  <!-- <a href="#" class="px-2 mx-1"><i class="fa-brands fa-x-twitter"></i></a> -->
+                  <a href="https://www.facebook.com/livebloodbank.co" target="_blank" class="mx-1"><i
+                      class="fa-brands fa-facebook-f" style="padding-left: 5px;"></i></a>
+                  <a href="https://www.instagram.com/livebloodbank007/" target="_blank" class="px-2 mx-1"><i
+                      class="fa-brands fa-instagram" style="padding-left: 5px;"></i></a>
+                  <a href="https://www.youtube.com/channel/UCRLECVdmllxAV5fgyzzsjZw?view_as=subscriber"
+                    class="px-2 mx-1"><i class="fa-brands fa-youtube" style="padding-left: 4px;"></i></a>
+                  <!-- <a href="#" class="px-2 mx-1"><i class="fa-brands fa-linkedin"></i></a> -->
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- footer-end -->
+  <!-- copyright footer-start -->
+  <div class="container-fluid py-2 text-center" style="background-color:var(--color--)">
+    <p class="txt text-white m-0 fw-bold"><span class="fs-4 pe-1">&copy;</span>Copyright <span
+        style="font-size: 18px;font-weight: bold;">&nbsp;Live Blood Bank</span>. All Rights Reserved</p>
+  </div>
+  <!-- copyright footer-end -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <!-- animaion -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
